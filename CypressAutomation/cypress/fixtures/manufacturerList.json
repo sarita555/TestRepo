@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Audi",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Audi_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 2,
+    "name": "BMW",
+    "icon": "https://electricmiles.io/images/vehicleBrand/BMW_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Chevrolet",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Chevrolet_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Flat",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Fiat_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Honda",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Honda_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Hyundai",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Hyundai_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Jaguar",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Jaguar_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Kia",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Kia_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Nissan",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Nissan_icon.svg",
+    "type": {
+      "id": 2,
+      "name": "Nissan"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Smart",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Smart_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Tesla",
+    "icon": "https://electricmiles.io/images/vehicleBrand/Tesla_icon.svg",
+    "type": {
+      "id": 1,
+      "name": "Tesla"
+    }
+  },
+  {
+    "id": 12,
+    "name": "VW",
+    "icon": "https://electricmiles.io/images/vehicleBrand/VW_icon.svg",
+    "type": {
+      "id": 3,
+      "name": "NonSupport"
+    }
+  }
+]

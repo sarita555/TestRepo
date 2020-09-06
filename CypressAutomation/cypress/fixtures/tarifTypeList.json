@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Standard Meter "
+  },
+  {
+    "id": 2,
+    "name": "Economy 7 Meter"
+  },
+  {
+    "id": 3,
+    "name": "Ecomony 10 Meter"
+  },
+  {
+    "id": 4,
+    "name": "Hlaf Hourly Meter"
+  },
+  {
+    "id": 5,
+    "name": "Prepayment Meter"
+  },
+  {
+    "id": 6,
+    "name": "Smart Meter SMETS1"
+  },
+  {
+    "id": 7,
+    "name": "Smart Meter SMETS2"
+  },
+  {
+    "id": 8,
+    "name": "Business Custom Meter"
+  }
+]

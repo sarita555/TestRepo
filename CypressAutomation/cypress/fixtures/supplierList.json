@@ -1,0 +1,716 @@
+[
+  {
+    "id": 2,
+    "name": "Affect Energy",
+    "url": "https://electricmiles.io/images/suppliers/affect-energy-logo-small.png",
+    "standard": 20.25,
+    "off_peak": 16.401
+  },
+  {
+    "id": 3,
+    "name": "Green Energy (UK)",
+    "url": "https://electricmiles.io/images/suppliers/green_energy_main_logo_web_small.png",
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 4,
+    "name": "Avro Energy",
+    "url": "https://electricmiles.io/images/suppliers/AVRO_White-92-29.png",
+    "standard": 19,
+    "off_peak": 16.401
+  },
+  {
+    "id": 5,
+    "name": "Beam Energy",
+    "url": "https://electricmiles.io/images/suppliers/beam-energy.png",
+    "standard": 26.362,
+    "off_peak": 17.705
+  },
+  {
+    "id": 6,
+    "name": "Green Star Energy",
+    "url": "https://electricmiles.io/images/suppliers/green-star-energy-92-46.png",
+    "standard": 28.04,
+    "off_peak": 19.497
+  },
+  {
+    "id": 7,
+    "name": "Better Energy",
+    "url": "https://electricmiles.io/images/suppliers/better-energy.png",
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 9,
+    "name": "Angelic Energy",
+    "url": "https://electricmiles.io/images/suppliers/angelic-energy-logo.jpg",
+    "standard": 34.81,
+    "off_peak": 17.705
+  },
+  {
+    "id": 10,
+    "name": "ESB Energy",
+    "url": "https://electricmiles.io/images/suppliers/ESB-Energy.png",
+    "standard": 22.1,
+    "off_peak": 16.401
+  },
+  {
+    "id": 11,
+    "name": "Bristol Energy",
+    "url": "https://electricmiles.io/images/suppliers/bristol-energy.png",
+    "standard": 28.95,
+    "off_peak": 16.401
+  },
+  {
+    "id": 12,
+    "name": "British Gas",
+    "url": "https://electricmiles.io/images/suppliers/British-Gas-Logo-120.png",
+    "standard": 29.832,
+    "off_peak": 20.13
+  },
+  {
+    "id": 15,
+    "name": "Co-Operative Energy",
+    "url": "https://electricmiles.io/images/suppliers/co-operative_energy_logo.png",
+    "standard": 40.965,
+    "off_peak": 16.401
+  },
+  {
+    "id": 17,
+    "name": "Utility Warehouse",
+    "url": "https://electricmiles.io/images/suppliers/utility-warehouse-logo.png",
+    "standard": 29.831,
+    "off_peak": 16.401
+  },
+  {
+    "id": 18,
+    "name": "Daligas",
+    "url": "https://electricmiles.io/images/suppliers/Daligas-logo.png",
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 19,
+    "name": "EBICo",
+    "url": "https://electricmiles.io/images/suppliers/Ebico_Logo.png",
+    "standard": 27.84,
+    "off_peak": 17.18
+  },
+  {
+    "id": 20,
+    "name": "Economy Energy",
+    "url": "https://electricmiles.io/images/suppliers/economy-energy-new-logo-92-53.png",
+    "standard": 18,
+    "off_peak": 16.401
+  },
+  {
+    "id": 21,
+    "name": "Ecotricity",
+    "url": null,
+    "standard": 26.91,
+    "off_peak": 15.46
+  },
+  {
+    "id": 22,
+    "name": "E.On",
+    "url": "https://electricmiles.io/images/suppliers/EON-Logo.png",
+    "standard": 25.432,
+    "off_peak": 19.937
+  },
+  {
+    "id": 23,
+    "name": "EDF Energy",
+    "url": "https://electricmiles.io/images/suppliers/edf-energy-logo.png",
+    "standard": 23.58,
+    "off_peak": 16.17
+  },
+  {
+    "id": 24,
+    "name": "Extra Energy",
+    "url": "https://electricmiles.io/images/suppliers/extra-energy-logo.png",
+    "standard": 36.88,
+    "off_peak": 16.401
+  },
+  {
+    "id": 25,
+    "name": "Fairerpower",
+    "url": "https://electricmiles.io/images/suppliers/fairerpower-logo.png",
+    "standard": 21.34,
+    "off_peak": 16.401
+  },
+  {
+    "id": 27,
+    "name": "Flow Energy",
+    "url": "https://electricmiles.io/images/suppliers/flow-energy-new-logo-91-31.png",
+    "standard": 25.982,
+    "off_peak": 16.401
+  },
+  {
+    "id": 28,
+    "name": "Future Energy",
+    "url": "https://electricmiles.io/images/suppliers/future-energy-logo.png",
+    "standard": 26.19,
+    "off_peak": 16.401
+  },
+  {
+    "id": 29,
+    "name": "GB Energy",
+    "url": "https://electricmiles.io/images/suppliers/gb-energy-supply.png",
+    "standard": 26.392,
+    "off_peak": 16.401
+  },
+  {
+    "id": 32,
+    "name": "Go Effortless Energy",
+    "url": "https://electricmiles.io/images/suppliers/go-effortless-energy-logo.png",
+    "standard": 29.23,
+    "off_peak": 16.401
+  },
+  {
+    "id": 33,
+    "name": "Good Energy",
+    "url": "https://electricmiles.io/images/suppliers/good-energy-logo.png",
+    "standard": 30.003,
+    "off_peak": 16.401
+  },
+  {
+    "id": 34,
+    "name": "GnERGY",
+    "url": "https://electricmiles.io/images/suppliers/gnergy-logo.png",
+    "standard": 26.667,
+    "off_peak": 16.401
+  },
+  {
+    "id": 35,
+    "name": "White Rose Energy",
+    "url": "https://electricmiles.io/images/suppliers/white-rose-energy.png",
+    "standard": 27.92,
+    "off_peak": 16.401
+  },
+  {
+    "id": 36,
+    "name": "Utilita",
+    "url": "https://electricmiles.io/images/suppliers/utilita-logo-92-36.png",
+    "standard": 0,
+    "off_peak": 16.401
+  },
+  {
+    "id": 37,
+    "name": "Octopus Energy",
+    "url": "https://electricmiles.io/images/suppliers/octopus_energy-new-logo.png",
+    "standard": 20.25,
+    "off_peak": 16
+  },
+  {
+    "id": 43,
+    "name": "npower",
+    "url": "https://electricmiles.io/images/suppliers/nPower-logo-120.png",
+    "standard": 28.04,
+    "off_peak": 16.401
+  },
+  {
+    "id": 44,
+    "name": "Peterborough Energy",
+    "url": "https://electricmiles.io/images/suppliers/peterborough-energy-logo.png",
+    "standard": 23.56,
+    "off_peak": 16.401
+  },
+  {
+    "id": 45,
+    "name": "Tonik Energy",
+    "url": "https://electricmiles.io/images/suppliers/Tonik-logo.png",
+    "standard": 23.67,
+    "off_peak": 16.401
+  },
+  {
+    "id": 46,
+    "name": "Together Energy",
+    "url": "https://electricmiles.io/images/suppliers/Together-Energy-Logo.png",
+    "standard": 24.853,
+    "off_peak": 16.401
+  },
+  {
+    "id": 47,
+    "name": "The Energy Deal",
+    "url": "https://electricmiles.io/images/suppliers/the-energy-deal.png",
+    "standard": 25.24,
+    "off_peak": 16.401
+  },
+  {
+    "id": 48,
+    "name": "SO Energy",
+    "url": "https://electricmiles.io/images/suppliers/so-energy-logo.png",
+    "standard": 21,
+    "off_peak": 16.401
+  },
+  {
+    "id": 49,
+    "name": "Robin Hood Energy",
+    "url": "https://electricmiles.io/images/suppliers/robin_hood_logo-92-31.png",
+    "standard": 27.92,
+    "off_peak": 16.401
+  },
+  {
+    "id": 55,
+    "name": "M&S Energy",
+    "url": "https://electricmiles.io/images/suppliers/M-and-S-Energy.png",
+    "standard": 21.92,
+    "off_peak": 16.401
+  },
+  {
+    "id": 57,
+    "name": "OVO Energy",
+    "url": "https://electricmiles.io/images/suppliers/Ovo-Energy-logo.png",
+    "standard": 26.17,
+    "off_peak": 16.401
+  },
+  {
+    "id": 58,
+    "name": "Southend Energy",
+    "url": "https://electricmiles.io/images/suppliers/southend-energy.png",
+    "standard": 27.171,
+    "off_peak": 16.401
+  },
+  {
+    "id": 59,
+    "name": "Spark Energy",
+    "url": "https://electricmiles.io/images/suppliers/Spark-logo.png",
+    "standard": 23.65,
+    "off_peak": 16.401
+  },
+  {
+    "id": 60,
+    "name": "SSE",
+    "url": "https://electricmiles.io/images/suppliers/SSE-Logo.png",
+    "standard": 30.5,
+    "off_peak": 16.401
+  },
+  {
+    "id": 64,
+    "name": "Ampower",
+    "url": null,
+    "standard": 27.98,
+    "off_peak": 16.401
+  },
+  {
+    "id": 65,
+    "name": "Boost",
+    "url": "https://electricmiles.io/images/suppliers/boost.png",
+    "standard": 29.77,
+    "off_peak": 17.26
+  },
+  {
+    "id": 66,
+    "name": "Breeze Energy",
+    "url": null,
+    "standard": 23.81,
+    "off_peak": 16.401
+  },
+  {
+    "id": 67,
+    "name": "Brighter World Energy",
+    "url": null,
+    "standard": 31.764,
+    "off_peak": 16.401
+  },
+  {
+    "id": 68,
+    "name": "Bulb",
+    "url": "https://electricmiles.io/images/suppliers/bulb-logo-120.png",
+    "standard": 27.375,
+    "off_peak": 15.2
+  },
+  {
+    "id": 69,
+    "name": "Cardiff Energy",
+    "url": "https://electricmiles.io/images/suppliers/cardiff-energy-supply-logo.png",
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 70,
+    "name": "Citizen Energy",
+    "url": null,
+    "standard": 27.4,
+    "off_peak": 19.057
+  },
+  {
+    "id": 71,
+    "name": "Co-op Energy",
+    "url": "https://electricmiles.io/images/suppliers/co-operative_energy_logo.png",
+    "standard": 23.512,
+    "off_peak": 15.45
+  },
+  {
+    "id": 72,
+    "name": "Economy Seven Energy",
+    "url": "https://electricmiles.io/images/suppliers/economy-energy-new-logo-92-53.png",
+    "standard": 22.375,
+    "off_peak": 13.93
+  },
+  {
+    "id": 73,
+    "name": "EnergySW",
+    "url": null,
+    "standard": 22.86,
+    "off_peak": 16.401
+  },
+  {
+    "id": 74,
+    "name": "ENGIE",
+    "url": null,
+    "standard": 28.086,
+    "off_peak": 16.401
+  },
+  {
+    "id": 75,
+    "name": "ENSTROGA",
+    "url": "https://electricmiles.io/images/suppliers/enstroga.png",
+    "standard": 22.375,
+    "off_peak": 16.401
+  },
+  {
+    "id": 76,
+    "name": "Entice Energy",
+    "url": null,
+    "standard": 22.885,
+    "off_peak": 16.401
+  },
+  {
+    "id": 77,
+    "name": "Eversmart Energy",
+    "url": null,
+    "standard": 21.908,
+    "off_peak": 16.401
+  },
+  {
+    "id": 78,
+    "name": "First Utility",
+    "url": null,
+    "standard": 24.876,
+    "off_peak": 16.401
+  },
+  {
+    "id": 79,
+    "name": "Fosse Energy",
+    "url": null,
+    "standard": 34.805,
+    "off_peak": 20.5
+  },
+  {
+    "id": 80,
+    "name": "Foxglove Energy",
+    "url": null,
+    "standard": 22.6,
+    "off_peak": 16.401
+  },
+  {
+    "id": 81,
+    "name": "GOTO.Energy",
+    "url": null,
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 82,
+    "name": "Great North Energy",
+    "url": null,
+    "standard": 28.095,
+    "off_peak": 17.705
+  },
+  {
+    "id": 83,
+    "name": "Green",
+    "url": null,
+    "standard": 14.286,
+    "off_peak": 12.878
+  },
+  {
+    "id": 84,
+    "name": "Green Energy UK",
+    "url": "https://electricmiles.io/images/suppliers/good-energy-logo.png",
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 85,
+    "name": "Green Network Energy",
+    "url": null,
+    "standard": 28.7,
+    "off_peak": 18.637
+  },
+  {
+    "id": 86,
+    "name": "Gulf Gas and Power",
+    "url": null,
+    "standard": 20,
+    "off_peak": 16.401
+  },
+  {
+    "id": 87,
+    "name": "Igloo Energy",
+    "url": null,
+    "standard": 19.841,
+    "off_peak": 12
+  },
+  {
+    "id": 88,
+    "name": "iSupplyEnergy",
+    "url": "https://electricmiles.io/images/suppliers/iSupply-logo.png",
+    "standard": 27.829,
+    "off_peak": 16.401
+  },
+  {
+    "id": 89,
+    "name": "LECCY",
+    "url": null,
+    "standard": 25.58,
+    "off_peak": 20
+  },
+  {
+    "id": 90,
+    "name": "London Power",
+    "url": null,
+    "standard": 21.89,
+    "off_peak": 15
+  },
+  {
+    "id": 91,
+    "name": "Lumo",
+    "url": null,
+    "standard": 22.29,
+    "off_peak": 16.401
+  },
+  {
+    "id": 92,
+    "name": "Lumo Energy",
+    "url": null,
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 93,
+    "name": "Nabuh Energy",
+    "url": null,
+    "standard": 26.54,
+    "off_peak": 16.401
+  },
+  {
+    "id": 94,
+    "name": "Neon Reef",
+    "url": null,
+    "standard": 13.78,
+    "off_peak": 11
+  },
+  {
+    "id": 95,
+    "name": "Northumbria Energy",
+    "url": null,
+    "standard": 18.75,
+    "off_peak": 16.401
+  },
+  {
+    "id": 96,
+    "name": "npower Select",
+    "url": "https://electricmiles.io/images/suppliers/nPower-logo-120.png",
+    "standard": 25.432,
+    "off_peak": 16.401
+  },
+  {
+    "id": 97,
+    "name": "Omni Energy",
+    "url": null,
+    "standard": 25.91,
+    "off_peak": 15
+  },
+  {
+    "id": 98,
+    "name": "One Select",
+    "url": null,
+    "standard": 23.35,
+    "off_peak": 16.401
+  },
+  {
+    "id": 99,
+    "name": "Orbit Energy",
+    "url": null,
+    "standard": 23.58,
+    "off_peak": 16.401
+  },
+  {
+    "id": 100,
+    "name": "Our Power",
+    "url": null,
+    "standard": 25.7,
+    "off_peak": 16.401
+  },
+  {
+    "id": 101,
+    "name": "Outfox the Market",
+    "url": null,
+    "standard": 9.3,
+    "off_peak": 12
+  },
+  {
+    "id": 102,
+    "name": "People's Energy",
+    "url": null,
+    "standard": 21.2,
+    "off_peak": 16.401
+  },
+  {
+    "id": 103,
+    "name": "PFP Energy",
+    "url": "https://electricmiles.io/images/suppliers/PFP-Energy.png",
+    "standard": 23.22,
+    "off_peak": 16.401
+  },
+  {
+    "id": 104,
+    "name": "Powershop",
+    "url": null,
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 105,
+    "name": "Pure Planet",
+    "url": null,
+    "standard": 25.049,
+    "off_peak": 16.401
+  },
+  {
+    "id": 106,
+    "name": "Qwest Energy",
+    "url": null,
+    "standard": 21.28,
+    "off_peak": 16.401
+  },
+  {
+    "id": 107,
+    "name": "RAM",
+    "url": null,
+    "standard": 26.495,
+    "off_peak": 16.401
+  },
+  {
+    "id": 108,
+    "name": "Roar Power",
+    "url": null,
+    "standard": 26.93,
+    "off_peak": 16.401
+  },
+  {
+    "id": 109,
+    "name": "Sainsbury's Energy",
+    "url": null,
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 110,
+    "name": "ScottishPower",
+    "url": "https://electricmiles.io/images/suppliers/scottish-power-logo-1.png",
+    "standard": 23.58,
+    "off_peak": 16.401
+  },
+  {
+    "id": 111,
+    "name": "Shell Energy",
+    "url": "https://electricmiles.io/images/suppliers/shell-energy-logo.png",
+    "standard": 28.04,
+    "off_peak": 16.401
+  },
+  {
+    "id": 112,
+    "name": "Simplicity Energy",
+    "url": null,
+    "standard": 29.661,
+    "off_peak": 16.401
+  },
+  {
+    "id": 113,
+    "name": "Solarplicity",
+    "url": null,
+    "standard": 0,
+    "off_peak": 16.401
+  },
+  {
+    "id": 114,
+    "name": "SSE Atlantic",
+    "url": null,
+    "standard": 26.1,
+    "off_peak": 16.401
+  },
+  {
+    "id": 115,
+    "name": "Symbio Energy",
+    "url": null,
+    "standard": 18.571,
+    "off_peak": 16.401
+  },
+  {
+    "id": 116,
+    "name": "TOTO by EDF",
+    "url": null,
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 117,
+    "name": "TOTO Energy",
+    "url": null,
+    "standard": 20,
+    "off_peak": 16.401
+  },
+  {
+    "id": 118,
+    "name": "Usio Energy",
+    "url": null,
+    "standard": 21.61,
+    "off_peak": 16.401
+  },
+  {
+    "id": 119,
+    "name": "Utility Point",
+    "url": null,
+    "standard": 18.244,
+    "off_peak": 16.401
+  },
+  {
+    "id": 120,
+    "name": "Yorkshire Energy",
+    "url": null,
+    "standard": 24.462,
+    "off_peak": 16.401
+  },
+  {
+    "id": 121,
+    "name": "Your Energy Sussex",
+    "url": null,
+    "standard": 25.362,
+    "off_peak": 16.401
+  },
+  {
+    "id": 122,
+    "name": "Zebra Power",
+    "url": null,
+    "standard": 25.422,
+    "off_peak": 16.401
+  },
+  {
+    "id": 123,
+    "name": "Zog Energy",
+    "url": null,
+    "standard": 16.401,
+    "off_peak": 16.401
+  },
+  {
+    "id": 127,
+    "name": "E",
+    "url": null,
+    "standard": 27.52,
+    "off_peak": 21.67
+  }
+]

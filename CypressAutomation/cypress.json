@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://dashboard.electricmiles.io",
+  "numTestsKeptInMemory": 25,
+  "responseTimeout": 60000,
+  "chromeWebSecurity": false,
+  "video": true,
+  
+
+  "env":{
+    "db":{
+      "host": "127.0.0.1",
+      "user": "devel",
+      "password": "Xeror19234",
+      "database": "charger_db",
+      "ssh": ""
+      }
+    },
+  
+   
+    "reporter": "mochawesome",
+    "reporterOptions": {
+       "reportDir": "cypress/reports/mocha",
+       "reportFilename": "reporthtml",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss"
+     }     
+}
+

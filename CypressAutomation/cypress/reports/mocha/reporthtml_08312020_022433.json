@@ -1,0 +1,208 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-08-31T06:23:57.874Z",
+    "end": "2020-08-31T06:24:33.931Z",
+    "duration": 36057,
+    "testsRegistered": 6,
+    "passPercent": 83.33333333333334,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ded9aeef-a5f3-4f27-9ac7-8ce6dd5df024",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\EMSmokeTest\\1_signUp.spec.js",
+      "file": "cypress\\integration\\examples\\EMSmokeTest\\1_signUp.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0fb79244-7055-420b-854a-c87f8c0934ad",
+          "title": "Sign Up",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Title of the page",
+              "fullTitle": "Sign Up Title of the page",
+              "timedOut": null,
+              "duration": 5907,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// cy.visit(\"https://dashboard.electricmiles.io/home\");\ncy.get('[class^=\"InitialStep_contentTitle\"]').should('have.text', 'Sign up');",
+              "err": {},
+              "uuid": "b12d455b-b0aa-4618-a2be-361aa82dde1b",
+              "parentUUID": "0fb79244-7055-420b-854a-c87f8c0934ad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Sign up",
+              "fullTitle": "Sign Up Sign up",
+              "timedOut": null,
+              "duration": 6123,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains(\"OK\").click({\n  force: true\n});\ncy.get('[class^=\"Input_input\"]').type(\"emCustomer\" + num + \"@gmail.com\");\ncy.get('[class^=\"FormContainer_SignInFormContainer\"]').click();\ncy.get('[class^=\"FormContainer_SignInFormContainer\"]').click();\ncy.wait(2000);\ncy.get('[class^=\"Input_input\"]').should('have.value', \"emCustomer\" + num + \"@gmail.com\");\ncy.wait(2000);\ncy.contains(\"Continue\", {\n  matchCase: false\n}).click({\n  force: true\n});\ncy.get('[class^=\"PersonalDetails_contentTitle\"]').should('be.visible');",
+              "err": {},
+              "uuid": "eb945537-9697-4dca-8439-75b7fcaa674b",
+              "parentUUID": "0fb79244-7055-420b-854a-c87f8c0934ad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A bit about you",
+              "fullTitle": "Sign Up A bit about you",
+              "timedOut": null,
+              "duration": 6881,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[class^=\"PersonalDetails_contentTitle\"]').contains('A bit about you');\ncy.get('input[name=\"firstName\"]').type('TestCustomer' + num);\ncy.get('input[name=\"lastName\"]').type('TestCustomer' + num);\ncy.get('input[name=\"companyName\"]').type('TestCompany' + num);\ncy.get('[name=\"phoneNumber\"]').type('44772558333');\ncy.get('[name=\"password\"]').type('Wewilldefeatcovid19');\ncy.get('[name=\"rePassword\"]').type('Wewilldefeatcovid19');\ncy.get('[class^=\"FormContainer_SignInFormContainer\"]').click();\ncy.get('[class^=\"FormContainer_SignInFormContainer\"]').click();\ncy.contains(\"Continue\", {\n  matchCase: false\n}).click({\n  force: true\n});\ncy.wait(3000);\ncy.get('[class^=\"AccountType_contentTitle\"]').should('be.visible');",
+              "err": {},
+              "uuid": "882582f8-d750-4b06-8161-8730a7ccbad7",
+              "parentUUID": "0fb79244-7055-420b-854a-c87f8c0934ad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Choose account type",
+              "fullTitle": "Sign Up Choose account type",
+              "timedOut": null,
+              "duration": 3262,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('h2[class^=\"AccountType_contentTitle\"]').contains('Choose account type');\ncy.get('[class^=\"CheckboxWithLabel_titleText\"]').contains('Personal EV');\ncy.get('#PersonalEV').check({\n  force: true\n});\ncy.contains(\"Continue\", {\n  matchCase: false\n}).click({\n  force: true\n});\ncy.wait(3000);\ncy.get('[class^=\"YourPlaces_contentTitle\"]').should('be.visible');",
+              "err": {},
+              "uuid": "c980bc8c-bc4b-4bef-a544-80e34f700c8c",
+              "parentUUID": "0fb79244-7055-420b-854a-c87f8c0934ad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Set your places",
+              "fullTitle": "Sign Up Set your places",
+              "timedOut": null,
+              "duration": 5651,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('h2[class^=\"YourPlaces_contentTitle\"]').contains('Set your places');\ncy.get('[name=\"homeAddress\"]').type('12109 Polo Drive, Fairfax, VA, USA');\ncy.get('[class^=\"FormContainer_SignInFormContainer\"]').click();\ncy.get('[name=\"workAddress\"]').type('5155 Parkstone Drive, Chantilly, VA, USA');\ncy.get('[class^=\"FormContainer_SignInFormContainer\"]').click();\ncy.get('[class^=\"FormContainer_SignInFormContainer\"]').click();\ncy.contains(\"Continue\", {\n  matchCase: false\n}).click({\n  force: true\n});\ncy.wait(3000);\ncy.get('[class^=\"YourOpinion_contentTitle\"]').should('be.visible');",
+              "err": {},
+              "uuid": "d0a4d076-809b-41a9-988f-7fb1b67a657b",
+              "parentUUID": "0fb79244-7055-420b-854a-c87f8c0934ad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Whats most important for you?",
+              "fullTitle": "Sign Up Whats most important for you?",
+              "timedOut": null,
+              "duration": 8047,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('h2[class^=\"YourOpinion_contentTitle\"]').contains(\"What's most important for you?\");\ncy.get('#Both').check({\n  force: true\n});\ncy.contains(\"Continue\", {\n  matchCase: false\n}).click();\ncy.wait(3000);\ncy.get('[class^=\"MainProfileInfo_firstName\"]').should('be.visible');\ncy.get('[class^=\"MainProfileInfo_firstName\"]').should(\"have.text\", \"Hello, TestCustomer\" + num + \"!\");",
+              "err": {
+                "message": "CypressError: Timed out retrying: Expected to find element: '[class^=\"MainProfileInfo_firstName\"]', but never found it.",
+                "estack": "CypressError: Timed out retrying: Expected to find element: '[class^=\"MainProfileInfo_firstName\"]', but never found it.\n    at cypressErr (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:138036:9)\n    at throwErr (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:137969:11)\n    at Object.throwErrByPath (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:138017:3)\n    at retry (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:132299:19)\n    at onFailFn (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:120514:16)\n    at tryCatcher (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:164895:23)\n    at Promise._settlePromiseFromHandler (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:162831:31)\n    at Promise._settlePromise (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:162888:18)\n    at Promise._settlePromise0 (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:162933:10)\n    at Promise._settlePromises (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:163008:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:159620:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:159630:10)\n    at Async.drainQueues (https://dashboard.electricmiles.io/__cypress/runner/cypress_runner.js:159504:14)",
+                "diff": null
+              },
+              "uuid": "f7c332cc-ecf0-4db1-92b5-a52c5730d1b9",
+              "parentUUID": "0fb79244-7055-420b-854a-c87f8c0934ad",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b12d455b-b0aa-4618-a2be-361aa82dde1b",
+            "eb945537-9697-4dca-8439-75b7fcaa674b",
+            "882582f8-d750-4b06-8161-8730a7ccbad7",
+            "c980bc8c-bc4b-4bef-a544-80e34f700c8c",
+            "d0a4d076-809b-41a9-988f-7fb1b67a657b"
+          ],
+          "failures": [
+            "f7c332cc-ecf0-4db1-92b5-a52c5730d1b9"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 35871,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "reporthtml",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "reporthtml",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
