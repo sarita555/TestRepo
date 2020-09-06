@@ -1,0 +1,44 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: 
+      - 'master'
+        
+jobs:
+  cypress-test:
+   name: Run on Chrome
+   runs-on: 
+   container:
+   steps:
+     - uses: actions/checkout@v2
+     - name: Install cypress and verify
+       run: 
+        npm ci
+        $(npm bin)/cypress verify
+       
+     - name: Run Cypress tests   
+       run: npm run test:chrome
+       continue-on-error: false
+       
+     - name: Copy test execution videos and screenshots
+       run: 
+          mkdir public
+          cp -r cypress/video public/videos
+          cp -r cypress/screenshots public/screenshots
+
+     - name: Merge test reports
+       run: npm run combine:report
+
+     - name: Generate HTML report
+       run: npm run gernate:report
+
+     - name: Deploy report report to GitHub Page
+       uses: peaceiris/actions-gh-pages@v3
+       with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         publish_dir: ./public    
+
+          
+     
+    
