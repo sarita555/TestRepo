@@ -7,7 +7,7 @@ on:
         
 jobs:
   cypress-test:
-   name: Run on Chrome 69
+   name: Run on Chrome 84
    runs-on: 
    container: cypress/browsers:node14.7.0-chrome84
 
@@ -26,7 +26,7 @@ jobs:
      - name: Copy test execution videos and screenshots
        run: 
           mkdir public
-          cp -r cypress/video public/videos
+          cp -r cypress/videos public/videos
           cp -r cypress/screenshots public/screenshots
 
      - name: Merge test reports
